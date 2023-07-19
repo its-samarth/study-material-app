@@ -26,13 +26,9 @@ npm install --legacy-peer-deps
 
 npm install react-scripts
 
-
+node src/Express or node src/Express.js
 
 In a new terminal:
-
-
-
-node src/Express or node src/Express.js
 
 
 npm start
