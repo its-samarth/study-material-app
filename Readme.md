@@ -24,14 +24,17 @@ npm init -y
 npm install --legacy-peer-deps
 
 
-npm install react-scripts
-
 node src/Express or node src/Express.js
 
 In a new terminal:
 
 
 npm start
+
+
+!!!!!NOTE: The web app is a little slow so please patiently wait for the app 
+after you upload the book using add book wait for a few second and then refresh the website to view updated result 
+
 
 Please make sure to use the node src/Express commmand or else the code wont run properly 
 
