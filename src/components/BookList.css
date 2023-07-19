@@ -1,0 +1,117 @@
+/* BookList.css */
+
+.book-list {
+    background-color: #f1f8ff; /* Light blue background */
+    padding: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    height: 36px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-select {
+    width: 150px;
+    height: 36px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .sort-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sort-buttons button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .sort-buttons button.active {
+    background-color: #ff7f50; /* Orange background for active sort button */
+    color: #fff;
+    border-color: #ff7f50;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .book-item {
+    background-color: #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-title {
+    position: relative !important;
+     /* Position relative for the title container */
+  }
+  
+  .book-title::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Position the line below the title */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* Black line color */
+  }
+  
+  .book-subject {
+    margin-bottom: 8px; /* Add margin-bottom for spacing */
+    padding-bottom: 10px; 
+     
+  }
+  
+  .dummy-book {
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .download-button{ 
+    position: relative !important;
+    padding: 0 !important;
+    font-size: 2px !important;
+    margin-top: 5px ;
+    
+  }
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 20px; /* Spacing between grid items */
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+
+  
+  
+  
